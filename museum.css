@@ -1,0 +1,174 @@
+/* font*/
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700&family=Montserrat:wght@300;400;500;600&display=swap');
+
+/* general stuff */
+body {
+    background-color: #000000;
+    color: #f5f5f5;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+}
+
+/* headings */
+h1, h2, h3, h4, h5 {
+    font-family: 'Cinzel', serif;
+    letter-spacing: 2px;
+    color: #f0d38a;
+}
+
+/* changes to the navigation bar */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.95) !important;
+    padding: 15px 0;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.5);
+}
+
+.navbar-brand {
+    font-family: 'Cinzel', serif;
+    font-size: 1.5rem;
+    color: #f0d38a !important;
+}
+
+.nav-link {
+    color: white !important;
+    margin-left: 15px;
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #f0d38a !important;
+}
+
+/* spacing */
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+/* images */
+img {
+    transition: 0.4s;
+}
+
+img:hover {
+    transform: scale(1.02);
+}
+
+/* cards */
+.card {
+    background-color: #1b1b1b;
+    border: none;
+    overflow: hidden;
+    transition: 0.3s;
+    color: white;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.card-title {
+    color: #f0d38a;
+    font-family: 'Cinzel', serif;
+}
+
+.card-text {
+    color: #d6d6d6;
+}
+
+/* card images */
+.card img {
+    height: 350px;
+    object-fit: cover;
+}
+
+/* button stuff */
+.btn-warning {
+    background-color: #d4af37;
+    border: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px 25px;
+    transition: 0.3s;
+}
+
+.btn-warning:hover {
+    background-color: #f0d38a;
+    transform: scale(1.05);
+}
+
+/* AUDIO PLAYER */
+audio {
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* i frames */
+iframe {
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.5);
+}
+
+/*contact*/
+.form-control {
+    background-color: #1c1c1c;
+    border: 1px solid #444;
+    color: white;
+}
+
+.form-control:focus {
+    background-color: #1c1c1c;
+    color: white;
+    border-color: #d4af37;
+    box-shadow: none;
+}
+
+/*footer*/
+footer {
+    background-color: black;
+    padding: 40px 20px;
+    margin-top: 50px;
+}
+
+footer p {
+    color: #bbb;
+    font-size: 0.95rem;
+}
+
+/* LINKS */
+a {
+    color: #f0d38a;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+/*gallery title spacing*/
+#gallery {
+    margin-bottom: 50px;
+}
+
+/* for the responsivness */
+@media(max-width: 768px) {
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.1rem;
+    }
+
+    .card img {
+        height: 250px;
+    }
+
+}
